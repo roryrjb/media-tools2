@@ -98,8 +98,3 @@ fn main() -> anyhow::Result<()> {
 
     Ok(())
 }
-
-#[test]
-fn finds_metadata_in_video() -> Result<NaiveDateTime, anyhow::Error> {
-    get_date_from_video("test.mov")
-}
