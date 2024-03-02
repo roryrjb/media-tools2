@@ -1,0 +1,19 @@
+[package]
+name = "media-tools"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cut-video"
+path = "src/cut-video/main.rs"
+
+[[bin]]
+name = "sort-media"
+path = "src/sort-media/main.rs"
+
+[dependencies]
+getopts = "0.2"
+rexif = "0.7"
+chrono = "0.4"
+glob = "0.3"
+anyhow = "1"
